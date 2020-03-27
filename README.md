@@ -96,7 +96,8 @@
 	2) Payload: Data -> Base64Encoded.
 	3) Verify Signature -> This string only compute by the server for the authentity. It is a algorithm with secret key.
 	
-## Question 
+## Question about JWT
+
 	1) How secure is a JWT if it readble by anyone?
 	Ans: No confidential/ sensitive information in a JWT. Just enough into for the server to know who the user is.
 	
