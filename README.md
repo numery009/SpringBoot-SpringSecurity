@@ -106,3 +106,10 @@
 	
 	3) Who do you disable JWT?
 	Ans: If someone steal JWT we have to disabled/ blacklisted JWT. It's a workaround.
+
+## OAUTH:
+	
+	OAuth-> is for Authorization.
+	OAuth-> Authorization between services.
+	
+	OAuth Access Token-> Contains user-allowed permissions trustable. (Cannot be tampered). OAuth uses JWT.
