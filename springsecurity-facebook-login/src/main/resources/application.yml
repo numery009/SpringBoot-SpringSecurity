@@ -1,0 +1,12 @@
+security:
+  oauth2:
+    client:
+      clientId: 123
+      clientSecret: 123
+      accessTokenUri: https://graph.facebook.com/oauth/access_token
+      userAuthorizationUri: https://www.facebook.com/dialog/oauth
+      tokenName: oauth_token
+      authentationScheme: query
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://graph.facebook.com/mert
