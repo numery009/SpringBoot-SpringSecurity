@@ -48,7 +48,7 @@
           
           @Override
 	        protected void configure(HttpSecurity http) throws Exception {
-		      http.authorizeRequests().antMatchers("/admin").hasRole("ADMIN").antMatchers("/user").hasAnyRole("USER", "ADMIN")
+		                  http.authorizeRequests().antMatchers("/admin").hasRole("ADMIN").antMatchers("/user").hasAnyRole("USER", "ADMIN")
 				  .antMatchers("/").permitAll().and().formLogin();
 	        
           }
@@ -60,3 +60,16 @@
         }
     
       
+## Note: 
+   For non SpringBoot App we have to add the Spring Security Filters in the web.xml. But in the SpringBoot app we do            not need to. 
+       
+       <Filter-Name> SpringSecurityFilterChain</Filter-Name>
+       <filter-class>org.springframework.web.filter.delegatingFilterProxy<filter-class>
+       
+       <Filter>
+       	<filter-mapping>
+       		<filter-name> springsecurityfilterchain</filter-name>			
+       	</filter-mapping>
+       </filter-mapping>
+
+	
