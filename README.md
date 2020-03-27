@@ -124,4 +124,4 @@
 	
 	Term 4: Client -> An application making protected resource requests on behalf of the resource owner and with in Authorization. 
 	
-	Term 5: Authorization Server -> The server issuing access tokens to the client.
+	Term 5: Authorization Server -> The server issuing access token to the client.
