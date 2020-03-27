@@ -89,3 +89,9 @@
 	2) Intercept all incoming requests
 		- Extract JWT from the header
 		- Validate and set in execution context.
+		
+## JWT Structure
+	
+	1) Header: Algorithm and tocken secrects.
+	2) Payload: Data -> Base64Encoded.
+	3) Verify Signature -> This string only compute by the server for the authentity. It is a algorithm with secret key.
