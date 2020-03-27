@@ -72,4 +72,20 @@
        	</filter-mapping>
        </filter-mapping>
 
+## JWT -> JSON WEB TOKEN
+
+	Authorization strategies
+	1) Session Token -> Reference Token
+	2) JSON Web Token -> Value Token
 	
+	Both will run in the HTTP. HTTP is staleless protocal. No state will remember for multiple request.
+	
+	JWT impementation Process --
+	
+	1) Authentication API endpoints
+		- Accepts userId and Password.
+		- Returns JWT as response.
+	
+	2) Intercept all incoming requests
+		- Extract JWT from the header
+		- Validate and set in execution context.
