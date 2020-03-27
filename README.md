@@ -121,3 +121,5 @@
 	Term 2: Resource Owner -> Who has the access to the resource right now.
 	
 	Term 3: Resource Server -> The server that has hosted all the resource. Google Drive is the hosted server.
+	
+	Term 4: Client -> An application making protected resource requests on behalf of the resource owner and with in                               Authorization. 
