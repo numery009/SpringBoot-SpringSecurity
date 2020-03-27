@@ -113,3 +113,11 @@
 	OAuth-> Authorization between services.
 	
 	OAuth Access Token-> Contains user-allowed permissions trustable. (Cannot be tampered). OAuth uses JWT.
+
+## Terminology and Steps of OAuth:
+
+	Term 1: Resource -> Photo in the google drive that is the resource.
+	
+	Term 2: Resource Owner -> Who has the access to the resource right now.
+	
+	Term 3: Resource Server -> The server that has hosted all the resource. Google Drive is the hosted server.
