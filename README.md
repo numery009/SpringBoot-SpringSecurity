@@ -95,3 +95,13 @@
 	1) Header: Algorithm and tocken secrects.
 	2) Payload: Data -> Base64Encoded.
 	3) Verify Signature -> This string only compute by the server for the authentity. It is a algorithm with secret key.
+	
+## Question 
+	1) How secure is a JWT if it readble by anyone?
+	Ans: No confidential/ sensitive information in a JWT. Just enough into for the server to know who the user is.
+	
+	2) What if someone steals my JWT and uses it themselves?
+	Ans: Server just verifies if JWT is correct. Does not know who sent it.
+	
+	3) Who do you disable JWT?
+	Ans: If someone steal JWT we have to disabled/ blacklisted JWT. It's a workaround.
