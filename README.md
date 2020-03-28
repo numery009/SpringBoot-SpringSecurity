@@ -125,3 +125,8 @@
 	Term 4: Client -> An application making protected resource requests on behalf of the resource owner and with in Authorization. 
 	
 	Term 5: Authorization Server -> The server issuing access token to the client.
+
+## OAuth Flow 
+	1) OAuth Flow 1 (Best Flow for OAuth) -> Authorization Code Flow
+	2) OAuth Flow 2 -> Implicit Flow
+	3) OAuth Flow 3 -> Client Credentials Flow (Authorization Between microservices)
