@@ -125,8 +125,11 @@
 	Term 4: Client -> An application making protected resource requests on behalf of the resource owner and with in Authorization. 
 	
 	Term 5: Authorization Server -> The server issuing access token to the client.
+	
+	![](Image/OAuthDiagram.jpg)
 
 ## OAuth Flow 
+   	
   1) OAuth Flow 1 (Best Flow for OAuth) -> Authorization Code Flow
   ![](Image/AuthorizationCodeFlow.jpg)
    
