@@ -127,6 +127,11 @@
 	Term 5: Authorization Server -> The server issuing access token to the client.
 
 ## OAuth Flow 
-	1) OAuth Flow 1 (Best Flow for OAuth) -> Authorization Code Flow
-	2) OAuth Flow 2 -> Implicit Flow
-	3) OAuth Flow 3 -> Client Credentials Flow (Authorization Between microservices)
+  1) OAuth Flow 1 (Best Flow for OAuth) -> Authorization Code Flow
+  ![](Image/AuthorizationCodeFlow.jpg)
+   
+  2) OAuth Flow 2 -> Implicit Flow
+  ![](Image/ImplicitFlow.jpg)
+  
+  3) OAuth Flow 3 -> Client Credentials Flow (Authorization Between microservices)
+  ![](Image/ClientCredentialsFlow.jpg)
