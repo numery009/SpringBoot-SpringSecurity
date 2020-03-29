@@ -126,7 +126,8 @@
 	
 	Term 5: Authorization Server -> The server issuing access token to the client.
 	
-![](Image/OAuthDiagram.jpg width="100" height="100")
+
+<img src=Image/OAuthDiagram.jpg width="100" height="100" >
 
 ## OAuth Flow 
    	
